@@ -8,7 +8,7 @@ TRIES = 2
 # The packet that we shall send to each router along the path is the ICMP echo # request packet, which is exactly what we had used in the ICMP ping exercise. # We shall use the same packet that we built in the Ping exercise
 def checksum(string):
 # In this function we make the checksum of our packet
-# hint: see icmpPing lab
+# hint: see icmpPing lab #
 def build_packet():
 # In the sendOnePing() method of the ICMP Ping exercise ,firstly the header of our # packet to be sent was made, secondly the checksum was appended to the header and # then finally the complete packet was sent to the destination.
 # Make the header in a similar way to the ping exercise. # Append checksum to the header.
